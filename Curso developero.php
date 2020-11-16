@@ -4,7 +4,7 @@
 
   print ("esto es una cadena impresa por print<br>");
 
-  //Variables = espacio reservado en el disco odbc_procedurecolumns
+  //Variables = espacio reservado en el disco
 
   $n = 1;//enter0
   $altura = 1.6;//flotante
