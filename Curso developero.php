@@ -22,12 +22,12 @@
 
   //array
   $datos = array('nombre' => "Franco",
-				 'edad' => "25",
-				 'Localidad' => "Buenos Aires");
+                  'edad' => "25",
+				          'Localidad' => "Buenos Aires");
 
   $paises = array('Argentina', 'Brasil', 'Mexico', 'Colombia');
 
-print_r($paises);
-echo "<br>";
- print_r($datos);
+  print_r($paises);
+  echo "<br>";
+  print_r($datos);
 ?>
