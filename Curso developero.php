@@ -27,6 +27,7 @@
 
   $paises = array('Argentina', 'Brasil', 'Mexico', 'Colombia');
 
+
   print_r($paises);
   echo "<br>";
   print_r($datos);
