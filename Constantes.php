@@ -1,0 +1,7 @@
+<?php
+    //sintaxis
+
+    //ejemplos
+
+
+?>
