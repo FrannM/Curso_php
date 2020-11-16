@@ -35,4 +35,6 @@ function operaciones ($n,$m,$operaciones){
         return $n / $m;}
 }
 
-echo operaciones(1,3,"resta");
+echo operaciones(5,25,"mult");
+
+?>
