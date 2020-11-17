@@ -4,62 +4,55 @@
 //objetivo: imprimir del 0 al 100;
 
 //while
-/*
-$n = 0;
-while ($n <= 100) {
-    echo $n, ' - ';
-    $n++; //$n = $n + 1
-}
-echo "<br>";
-*/
-/*
-$n = 10;
-do {
-    echo $n, ' - ';
-    $n++; //$n = $n + 1
-} while ($n <= 100);
-*/
-/*
-echo "<br>";
-for ($i=0; $i < 100 ; $i++) {
+
+$i = 0;
+while ($i <= 100) {
     echo $i, ' - ';
+    $i++; //$i = $n + 1
 }
-*/
-/*
-$n=1;
+print "<br>";
+
+$m = 10;
+do {
+    echo $m, ' - ';
+    $m++; //$m = $m + 1
+} while ($m <= 100);
+
+print "<br>";
+for ($b = 0; $b < 100; $b++) {
+    echo $b, ' - ';
+}
+echo $b,"<br>";
+
+$n = 1;
 while ($n <= 10) {
-    echo "tablas del $n </br>";
-    $m=1;
+    print "tablas del $n <br>";
+    $m = 1;
     while ($m <= 10) {
         echo "$n * $m = ", $m * $n;
-        echo "</br>";
+        print "<br>";
         $m++;
     }
     $n++;
 }
-*/
-
 /*
 Imprimir los numeros pares del 0 al 50.
 Imprimir los numeros impares del 0 al 50.
 Imprimir las potencias del 2, hasta la decima potencia.
-*/
-/*
-$n=0;
-for ($n=0; $n<=50 ; $n+=2) {
-    echo "Los numeros pares son: ", $n, "</br>";
-}
-*/
-/*
-$n=1;
-for ($n = 1; $n <= 50; $n += 2) {
-    echo "Los numeros impares son: ", $n, "</br>";
-}
-*/
-$n=2;
-$p=0;
-    for ($p=0; $p<=10 ; $p++) {
-    echo $n ," elevado a la ", $p, " es: ", $n ** $p, "</br>";
-    }
+ */
 
-?>
+$j = 0;
+for ($j = 0; $j <= 50; $j += 2) {
+    echo "Los numeros pares son: ", $j, "<br>";
+}
+
+$f = 1;
+for ($f = 1; $f <= 50; $f += 2) {
+    echo "Los numeros impares son: ", $f, "<br>";
+}
+
+$x = 2;
+$p = 0;
+    for ($p = 0; $p <= 10; $p++) {
+        echo $x ," elevado a la ", $p, " es: ", $x ** $p, "<br>";
+    }
