@@ -1,13 +1,14 @@
 <?php
-/*
->
-<
->=
-<=
-==
-=== si es mismo valor y mismo tipo de variable
-!= diferente a ....
+/**
+ * >
+ * <
+ * >=
+ * <=
+ * ==
+ * === si es mismo valor y mismo tipo de variable
+ * != diferente a ....
  */
+
 /*
 Dada una edad, saber si es bebe, niño. adolescente o adulto.
 bebe < 2, niño 3 - 12, adolescente 13 - 17, y adulto 18 ....n
