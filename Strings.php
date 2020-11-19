@@ -33,14 +33,13 @@
     echo strtoupper($mensaje) . "<br>";
 
     //Comparar cadenas
-    echo strcmp("a","a") . "<br>";
+    echo strcmp("a", "a") . "<br>";
 
     //Substraer cadena
     echo substr($mensaje, 10) . "<br>";
 
     //Remover espacios en blanco
-    echo trim("hola         estoy           removiendo         los espacios       que         sobran");
-
-?>
+    echo trim("hola     estoy     removiendo      los   espacios     que     sobran");
+    ?>
 </body>
 </html>
